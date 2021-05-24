@@ -33,9 +33,10 @@ const promptUser = () => {
       message: "Provide instructions and examples for use.",
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
-      message: "License?",
+      message: "Choose a license.",
+      choices: ["Apache", "MIT", "GNU GPLv3"],
     },
     {
       type: "input",
@@ -49,13 +50,18 @@ const promptUser = () => {
     },
     {
       type: "input",
-      name: "questions",
-      message: "How can you be contacted for quetsions?",
+      name: "github",
+      message: "What is your GitHub username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
     },
   ]);
 };
 
-const generateHTML = (answers) =>
+const generateREADME = (answers) =>
   `
   # <${answers.name}>
 
@@ -89,16 +95,18 @@ const generateHTML = (answers) =>
   
   ${answers.test}
   
-  ## Contact
+  ## Questions
   
-  ${answers.questions}
+  https://github.com/${answers.questions}
+  ${answers.email}
   
 `;
 
-// Bonus using writeFileAsync as a promise
 const init = () => {
   promptUser()
-    .then((answers) => writeFileAsync("READMEsample.md", generateHTML(answers)))
+    .then((answers) =>
+      writeFileAsync("READMEsample.md", generateREADME(answers))
+    )
     .then(() => console.log("Successfully wrote to README.md"))
     .catch((err) => console.error(err));
 };
