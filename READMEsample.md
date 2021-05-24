@@ -1,9 +1,9 @@
 
-  # <Lemon's README generator>
+  # <Lemonade>
 
   ## Description
   
-  This application will create a dynamic README.md.
+  test
 
   ## Table of Contents
   - [Installation](#installation)
@@ -17,7 +17,7 @@
   
   ## Usage
   
-  test
+  n'a
   
   ## License
   
@@ -25,14 +25,14 @@
   
   ## Contributors
   
-  contact me
+  a
   
   ## Tests
   
-  npm test
+  node index.js
   
   ## Questions
   
   https://github.com/truethatplaya
-  alina.hernandez.ca@gmail.com
+  alina.hernandez.ca@gmail.c
   

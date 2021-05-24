@@ -54,7 +54,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Screenshot
 
-[Go to a screenshot of password generator](./assets/images/screenshot.png)
+[Go to a screenshot of README generator](./assets/images/screenshot.png)
 
 ## Link to deploy website
 

@@ -18,14 +18,8 @@ const promptUser = () => {
     },
     {
       type: "input",
-      name: "tableOfContents",
-      message: "Enter the Table of Contents for your application?",
-    },
-    {
-      type: "input",
       name: "installation",
-      message:
-        "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+      message: "What are the steps are required to install your project?",
     },
     {
       type: "input",
@@ -41,7 +35,7 @@ const promptUser = () => {
     {
       type: "input",
       name: "contributions",
-      message: "How can someone contribute to your application?",
+      message: "Were there any collaborators?",
     },
     {
       type: "input",
@@ -72,8 +66,10 @@ const generateREADME = (answers) =>
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   
