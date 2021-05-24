@@ -54,11 +54,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Screenshot
 
-[Go to a screenshot of README generator](./assets/images/screenshot.png)
-
-## Link to deploy website
-
-[Go website](https://truethatplaya.github.io/09-readme-generator/)
+[Go to a screenshot of README generator](./images/screenshot.png)
 
 ## Link to git hub repository "09-readme-generator"
 

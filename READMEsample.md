@@ -1,23 +1,25 @@
 
-  # <Lemonade>
+  # <README Generator>
 
   ## Description
   
-  test
+  This application will generate a README file for your project
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   
-  test
+  npm install, npm inquirer
   
   ## Usage
   
-  n'a
+  open the terminal and type in ``node index.js``
   
   ## License
   
@@ -25,14 +27,14 @@
   
   ## Contributors
   
-  a
+  n/a
   
   ## Tests
   
-  node index.js
+  n/a
   
   ## Questions
   
   https://github.com/truethatplaya
-  alina.hernandez.ca@gmail.c
+  alina.hernandez.ca@gmail.com
   
