@@ -1,40 +1,38 @@
-# <test>
 
-## Description
+  # <Lemon's README generator>
 
-test
+  ## Description
+  
+  This application will create a dynamic README.md.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributors](#contributors)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
-
-test
-
-## Usage
-
-test
-
-## License
-
-MIT
-[MIT license](./LICENSE.txt)
-
-## Contributors
-
-test
-
-## Tests
-
-test
-
-## Questions
-
-https://github.com/undefined
-test
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  
+  test
+  
+  ## Usage
+  
+  test
+  
+  ## License
+  
+  MIT
+  
+  ## Contributors
+  
+  contact me
+  
+  ## Tests
+  
+  npm test
+  
+  ## Questions
+  
+  https://github.com/truethatplaya
+  alina.hernandez.ca@gmail.com
+  
