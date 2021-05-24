@@ -97,7 +97,7 @@ const generateREADME = (answers) =>
   
   ## Questions
   
-  https://github.com/${answers.questions}
+  https://github.com/${answers.github}
   ${answers.email}
   
 `;
