@@ -24,17 +24,13 @@ const promptUser = () => {
     {
       type: "input",
       name: "installation",
-      message: "How do you install your application?",
-    },
-    {
-      type: "input",
-      name: "instructions",
-      message: "Enter the instructions to use your application.",
+      message:
+        "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
     },
     {
       type: "input",
       name: "usage",
-      message: "How does a user use this application?",
+      message: "Provide instructions and examples for use.",
     },
     {
       type: "input",
@@ -62,18 +58,41 @@ const promptUser = () => {
 const generateHTML = (answers) =>
   `
   # <${answers.name}>
+
+  ## Description
   
-//     <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-//     <p class="lead">I am from ${answers.location}.</p>
-//     <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
-//     <ul class="list-group">
-//       <li class="list-group-item">My GitHub username is ${answers.github}</li>
-//       <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
-//     </ul>
-//   </div>
-// </div>
-// </body>
-// </html>
+  ${answers.description}
+
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  
+  ${answers.installation}
+  
+  ## Usage
+  
+  ${answers.usage}
+  
+  ## License
+  
+  ${answers.license}
+  
+  ## Contributors
+  
+  ${answers.contributions}
+  
+  ## Tests
+  
+  ${answers.test}
+  
+  ## Contact
+  
+  ${answers.questions}
+  
 `;
 
 // Bonus using writeFileAsync as a promise
