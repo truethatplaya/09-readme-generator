@@ -50,7 +50,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-[Go to walkthrough video](./README-screen-grab.mov)
+![Go to walkthrough video](./README-screen-grab.gif)
 
 ## Screenshot
 
