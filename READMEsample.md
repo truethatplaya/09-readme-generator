@@ -1,9 +1,9 @@
 
-  # <README Generator>
+  # <README generator>
 
   ## Description
   
-  This application will generate a README file for your project
+  This application will create a README.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,11 +15,11 @@
   
   ## Installation
   
-  npm install, npm inquirer
+  install npm inquirer
   
   ## Usage
   
-  open the terminal and type in ``node index.js``
+  start by opening the terminal... 
   
   ## License
   
@@ -27,11 +27,11 @@
   
   ## Contributors
   
-  n/a
+  My Dog Lemon.
   
   ## Tests
   
-  n/a
+  node index.js
   
   ## Questions
   
