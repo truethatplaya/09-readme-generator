@@ -4,6 +4,10 @@ A command-line application that dynamically generates a professional README.md f
 
 You can quickly and easily create a README file by using a command-line application that will dynamically generate a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
+```bash
+npm install inquirer
+```
+
 Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain.
 
 The application will be invoked by using the following command:
